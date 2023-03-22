@@ -28,7 +28,7 @@ const insertImages = (maxIndex, dataFilterType) => {
 };
 
 insertImages(14, "decks");
-insertImages(14, "bathrooms");
+insertImages(17, "bathrooms");
 insertImages(4, "drywall");
 insertImages(4, "porches")
 
