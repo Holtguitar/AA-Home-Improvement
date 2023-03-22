@@ -327,6 +327,7 @@ a {
 
 .filter-button-group {
   margin-bottom: 15px;
+  /* display: none !important; */
 }
 .filter-button-group a {
   border-right: 1px solid;
@@ -633,6 +634,21 @@ footer {
     margin-right: 30px;
     margin-left: 30px;
   }
+  .filter-button-group {
+    margin-bottom: 15px;
+    height: 85px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .filter-button-group a {
+    border-right: 1px solid;
+    border-left: solid 1px;
+    border-top: 1px solid;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 30px;
+  }
 }
 
 @media (max-width: 992px) {
@@ -642,7 +658,27 @@ footer {
   #gtco-header-navbar {
     padding-left: 15px;
     background-color: #fff;
+  } 
+  .filter-button-group {
+    margin-bottom: 15px;
+    height: 85px;
+    text-align: center;
+    margin-bottom: 40px;
   }
+  
+  .filter-button-group a {
+    border-right: 1px solid;
+    border-left: solid 1px;
+    border-top: 1px solid;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 30px;
+  }
+
+  .d-flex {
+    display: none;
+  }
+
 }
 
 @media (max-width: 767px) {

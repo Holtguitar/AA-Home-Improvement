@@ -1,6 +1,7 @@
 "use strict";
 const portfolioGrid = document.getElementById("grid-portfolio");
 
+
 const insertImages = (maxIndex, dataFilterType) => {
     for(let i = 1; i <= maxIndex; i++){
         const div = document.createElement("div");
@@ -31,3 +32,8 @@ insertImages(14, "bathrooms");
 insertImages(4, "drywall");
 insertImages(4, "porches")
 
+const width = $(window).width();
+if(width < 800){
+    const links = document.getElementById("filter-button-group");
+    links.classList.remove("d-flex");
+};
